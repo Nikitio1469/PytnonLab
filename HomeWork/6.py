@@ -13,7 +13,7 @@ def draw_star(n):
         turtle.forward(200)
         turtle.left(180 - 180 / n)
 
-# Нарисовать звезду с 5 концами
+# Нарисовать звезду с 9 концами
 draw_star(9)
 
 
