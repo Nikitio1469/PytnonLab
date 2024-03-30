@@ -27,7 +27,7 @@ while True:
 
     elif answer == 8:
         for student in studentGrades:
-            random_grades = [random.randint(1, 5) for _ in range(3)]  # Генерация 3 рандомных оценок от 1 до 10 для каждого студента
+            random_grades = [random.randint(1, 5) for _ in range(3)]  # Генерация 3 рандомных оценок от 1 до 5 для каждого студента
             studentGrades[student] = random_grades
     
     elif answer == 1:
