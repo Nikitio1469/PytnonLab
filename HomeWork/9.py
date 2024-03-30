@@ -3,7 +3,7 @@ import random
 studentList = ["Вася", "Петя"]
 studentGrades = {"Вася": [], "Петя": []}
 
-# Добавление еще 5 имен и оценок
+# Добавление еще 3 имени и оценок
 for _ in range(3):
     newStudent = input("Введите имя студента: ")
     studentList.append(newStudent)
